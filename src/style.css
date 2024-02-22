@@ -1,0 +1,19 @@
+body {
+  font: 10px sans-serif;
+}
+
+.outer,
+.inner {
+  shape-rendering: crispEdges;
+}
+
+.outer {
+  fill: none;
+  stroke: #000;
+}
+
+.inner {
+  fill: white;
+  stroke: #000;
+  stroke-dasharray: 3, 4;
+}
